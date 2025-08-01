@@ -464,18 +464,6 @@ We welcome contributions! Please follow these steps:
    - Include screenshots if UI changes
    - Reference any related issues
 
-### Development Guidelines
-
-- **Code Style**: Follow ESLint configuration
-- **Commits**: Use conventional commit messages
-- **Documentation**: Update README for new features
-- **Testing**: Add tests for new functionality
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
 MIT License
 
 Copyright (c) 2024 Resume Organizer
@@ -499,78 +487,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 🆘 Support & Troubleshooting
-
-### Common Issues
-
-#### 1. MongoDB Connection Error
-```
-Error: connect ECONNREFUSED 127.0.0.1:27017
-```
-**Solution**: Check if MongoDB is running or update your connection string
-
-#### 2. File Upload Fails
-```
-Error: MulterError: File too large
-```
-**Solution**: Check file size (max 10MB) or update size limit in configuration
-
-#### 3. Port Already in Use
-```
-Error: listen EADDRINUSE: address already in use :::5000
-```
-**Solution**: Kill existing processes or change port in config
-
-#### 4. CORS Error
-```
-Access to fetch at 'http://localhost:5000/api/upload' from origin 'http://localhost:3000' has been blocked by CORS policy
-```
-**Solution**: Check CORS configuration in backend/server.js
-
-### Getting Help
-
-- 📧 **Create an Issue**: [GitHub Issues](https://github.com/sriram2907/Resume-organiser-HR/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/sriram2907/Resume-organiser-HR/discussions)
-- 📖 **Documentation**: Check this README and inline code comments
-- 🔍 **Search**: Look through existing issues for similar problems
-
-### Debug Mode
-
-Enable debug logging by setting:
-```env
-NODE_ENV=development
-DEBUG=resume-organizer:*
-```
-
-## 🙏 Acknowledgments
-
-- **React Team** - For the amazing React framework
-- **Tailwind CSS** - For the utility-first CSS framework
-- **MongoDB** - For the powerful NoSQL database
-- **Express.js** - For the minimal web framework
-- **Lucide React** - For the beautiful icon library
-- **Open Source Community** - For all the amazing packages used
-
-## 📈 Roadmap
-
-### Planned Features
-- [ ] **User Authentication** - Login/signup system
-- [ ] **Advanced Search** - Full-text search with Elasticsearch
-- [ ] **Resume Parsing** - AI-powered resume analysis
-- [ ] **Email Integration** - Send emails to candidates
-- [ ] **Analytics Dashboard** - Hiring metrics and insights
-- [ ] **Bulk Upload** - Upload multiple resumes at once
-- [ ] **Export Functionality** - Export data to CSV/Excel
-- [ ] **Mobile App** - React Native mobile application
-
-### Performance Improvements
-- [ ] **Caching** - Redis for session and data caching
-- [ ] **CDN Integration** - CloudFront for static assets
-- [ ] **Database Optimization** - Indexing and query optimization
-- [ ] **Image Compression** - Optimize uploaded files
-
----
-
 ## 🌟 Star This Repository
 
 If you found this project helpful, please give it a ⭐ star on GitHub!
@@ -581,4 +497,4 @@ If you found this project helpful, please give it a ⭐ star on GitHub!
 
 **Made with ❤️ for better HR management**
 
-*Built by [Your Name] - Empowering HR professionals with modern tools*
+*Built by SRIRAM - Empowering HR professionals with modern tools*
